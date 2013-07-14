@@ -1,0 +1,230 @@
+/* general body properties */
+
+body {
+    /* This defaults to Helvetica Neue if the viewer has it installed (e.g., Macs) 
+       and use a lighter font weight. If they don't have it, we use a decent font from Google Web Fonts. */
+    
+    /* Warning: if you want alternate font weights, you need to go back to Google Web Fonts and include them in the collection that gets included via <link> */
+    font-weight: 300;
+    font-family: 'Helvetica Neue',Helvetica,Arial,serif;
+    font-size: 15px;
+}
+
+a {
+    color: #666699; /#c04B16;  /* #B92A1D; */
+}
+
+a:hover {
+  /*  color: #B9AAAA;*/
+}
+
+.table th, .table td {
+    border-top: 0px;
+}
+
+h2 {
+	text-align : left;
+	/*color: #8F360E;*/
+}
+h3  {
+    color: #8F360E; /* #C04B16;  /* #B92A1D;*/
+    font-size: 30px;
+    font-family:'Helvetica', cursive;
+    font-weight: 600;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align : center; 
+}
+
+h4 {
+    color: white; /* #0010a3;  /* #B92A1D;*/
+    font-size: 20px;
+    font-family:'Helvetica', cursive;
+    font-weight: 400;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+h5 {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+/* bootstrap properties */
+
+#EACONtainer {
+
+}
+
+.container, .span12 {
+	max-width : 940px;
+}
+
+.span6 {
+	width : 420px;
+	text-align : center;
+}
+
+@media (max-width: 500px) {
+  .span12, .container {
+    width: 500px;
+  }
+}
+
+#eanav.navbar-static-top {
+    padding-bottom: 25px;
+	width : 940px;
+	text-align : center;
+}
+
+#eanav .navbar-inner {
+ 
+  background-color: white;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+  border-color: #777777;
+  min-height: 50px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+#eanav .brand  {
+    color: black;  /* #B92A1D;*/
+    font-size: 32px;
+    font-family:'Merienda', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.nav  {
+    color: #C04B16;  /* #B92A1D;*/
+    font-size: 19px;
+    font-family:'Merienda', cursive;
+    font-weight: 400;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sidenav > .nav-list {
+  border: 1px solid #CCCCCC;
+}
+
+
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+    color: black;
+    background-color: white;
+}
+
+.navbar-inverse .nav li > a:hover{
+    color: #B9AAAA;
+    background-color: white;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    color: #2B3641;
+    text-decoration: none;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.125);
+    -moz-box-shadow: inset 0 0px 0px rgba(0,0,0,0.125);
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.125);
+}
+
+
+.nav-pills, .nav-pills .active > a, .nav-pills .active > a:hover {
+  background-color: white;
+}
+
+.nav-list > .active > a, .nav-list > .active > a:hover {
+  background-color: white;
+}
+
+.lead {
+    color: black;
+    font-size: 16px;
+    font-family:'Helvetica Neue','Open Sans',Helvetica,Arial,sans-serif;
+    font-weight: 100;
+   
+}
+
+
+.table-condensed {
+    margin-bottom: 0px;
+}
+.table-condensed td {
+    padding: 0px 0px;
+}
+
+.text-success {
+    font-variant:small-caps;
+}
+
+.label {
+    font-weight: normal;
+}
+
+.label, .badge {
+    background-color: rgb(211, 211, 211); /* #999999; */
+    color: rgb(88, 61, 61); /* #FFFFFF; */
+    display: inline-block;
+    font-size: 11.844px;
+    font-weight: normal;
+    line-height: 14px;
+    padding: 2px 4px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+
+/* ea-defined properties */
+
+.paperimg {
+    margin-bottom: 10px; 
+    margin-top: 15px; 
+    margin-right: 20px;
+    margin-left: 20px;
+
+    height: 100px;
+
+    border: 1px solid #787878;
+    min-width: 120px;
+    max-width: 120px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.papers tr.old {
+    display: none;
+}
+
+.papers td {
+    vertical-align: top;
+    padding-left: 0px;
+}
+
+.olddate, .olddate a {
+    color: #AAAAAA;
+}
+
+.faq {
+    text-align: justify;
+}
+
+.btn-link {
+    padding: 0px 0px 30px 0px;
+}
